@@ -49,7 +49,36 @@ console.log(tinder)
 console.log(Object.keys(tinder));
 console.log(Object.values(tinder));
 
-console.log(tinder.hasOwnProperty('id'));
+console.log(tinder.hasOwnProperty('id')) ;
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
+
+
+ 
 
 
 
