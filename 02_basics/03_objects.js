@@ -16,7 +16,7 @@ const jsuser={
  console.log((jsuser.name));
  console.log(jsuser[mysym])
 
- // value can be access thorugh . or []
+ // value can be access by . or []
 
  jsuser.email="OHYEAH@GMAI.MXOM"
 
